@@ -1,0 +1,124 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "consolas",
+  "editor.fontSize": 13,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.SSH.remotePlatform": {
+    "AWS": "linux",
+    "MAAS": "linux",
+    "RDMA-00": "linux",
+    "RDMA-01": "linux",
+    "RDMA-02": "linux",
+    "RDMA-03": "linux",
+    "AWS-VIOLET": "linux",
+  },
+  "editor.tabSize": 2,
+  "redhat.telemetry.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cmake.configureOnOpen": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<esc>"]
+    }
+  ],
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "java.import.gradle.java.home": "C:\\Program Files\\Java\\jdk-17.0.3.1",
+  "extensions.supportUntrustedWorkspaces": {},
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "workbench.colorCustomizations": {
+    "[Community Material Theme Darker]": {
+      "editorInlayHint.parameterBackground": "#4d4d4d99",
+      "editorInlayHint.parameterForeground": "#ffffffcc",
+      "editorInlayHint.background": "#00000000",
+      "editorInlayHint.foreground": "#666666FF"
+    }
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.handleKeys": {
+    // "<C-d>": false,
+    "<C-f>": false,
+    "<C-w>": false
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "remote.SSH.useExecServer": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cmake.showOptionsMovedNotification": false,
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "remoteBranches",
+    "tags",
+    "stashes"
+  ],
+  "remote.autoForwardPortsSource": "hybrid",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.openRepositoryInParentFolders": "never",
+  "window.zoomLevel": 0.8,
+  "graphviz-interactive-preview.openAutomatically": false,
+  "graphviz-interactive-preview.format.condenseAttributes": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "vs-kubernetes": {
+    "vs-kubernetes.ignore-recommendations": true
+  }
+}
